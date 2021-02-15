@@ -60,5 +60,5 @@ A XOR B = (A && !B) || (!A && B)
 
 Ceci est facilement visible avec un diagramme de Venn:
 
-[Diagramme de Venn pour l'opérateur XOR](https://upload.wikimedia.org/wikipedia/commons/4/46/Venn0110.svg) 
+![img](https://upload.wikimedia.org/wikipedia/commons/4/46/Venn0110.svg) 
 
