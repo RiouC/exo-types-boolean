@@ -1,0 +1,19 @@
+
+
+| A | B | A XOR B |
+|---+---+---------|
+| 0 | 0 |       0 |
+| 0 | 1 |       1 |
+| 1 | 0 |       1 |
+| 1 | 1 |       0 |
+
+L'opérateur XOR, aussi appelé OU exclusif, renvoie Vrai (true) pour deux entrées A et B
+seulement quand l'un des deux est vrai.
+A XOR B est donc équivalent à : 
+
+A XOR B = (A || B) && !(A && B)
+A XOR B = (A && !B) || (!A && B) 
+
+Ceci est facilement visible avec un diagramme de Venn:
+
+[[https://upload.wikimedia.org/wikipedia/commons/4/46/Venn0110.svg][Diagramme de Venn pour l'opérateur XOR]] 
